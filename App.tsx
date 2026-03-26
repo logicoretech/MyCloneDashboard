@@ -217,25 +217,6 @@ const App: React.FC = () => {
           </div>
         )}
 
-        {/* AI Insight Section */}
-        <div className="mb-8 bg-white border border-gray-100 p-5 rounded-2xl shadow-sm flex items-center relative overflow-hidden group">
-          <div className="absolute top-0 left-0 w-1.5 h-full bg-indigo-500"></div>
-          <div className="mr-5 bg-indigo-50 p-3 rounded-xl text-indigo-600 group-hover:scale-105 transition-transform duration-500">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
-          </div>
-          <div className="flex-1">
-            <div className="flex items-center justify-between mb-1">
-              <p className="text-[10px] font-black text-indigo-400 uppercase tracking-widest">Executive Business Intelligence</p>
-              <div className="flex space-x-1">
-                <div className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse"></div>
-                <div className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse [animation-delay:0.2s]"></div>
-                <div className="w-1 h-1 rounded-full bg-indigo-400 animate-pulse [animation-delay:0.4s]"></div>
-              </div>
-            </div>
-            <p className="text-gray-700 font-medium leading-relaxed italic">"{aiInsight}"</p>
-          </div>
-        </div>
-
         {/* Key Metrics */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4 mb-8">
           <StatCard 
