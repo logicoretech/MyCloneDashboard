@@ -14,7 +14,7 @@ interface StatCardProps {
 
 export const StatCard: React.FC<StatCardProps> = ({ label, value, icon, trend, colorClass }) => {
   return (
-    <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 flex items-start space-x-4">
+    <div className="bg-white px-5 py-6 rounded-xl shadow-sm border border-gray-100 flex items-start space-x-3">
       <div className={`p-3 rounded-lg ${colorClass} bg-opacity-10 text-xl`}>
         {icon}
       </div>
