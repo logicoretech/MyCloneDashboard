@@ -50,7 +50,7 @@ export const DashboardCharts: React.FC<DashboardChartsProps> = ({ data }) => {
             <Area 
               type="monotone" 
               dataKey="potentialRevenue" 
-              name="Potential" 
+              name="Gross" 
               stroke="#94a3b8" 
               strokeDasharray="5 5" 
               fill="transparent" 
